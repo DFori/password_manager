@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c429f117-7c70-445e-a018-7c6834750e35" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../cmp104_assignment/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmp104_assignment/.idea/cmp104_assignment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmp104_assignment/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmp104_assignment/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmp104_assignment/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmp104_assignment/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmp104_assignment/largest_num.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmp104_assignment/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmp104_assignment/marvis09.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmp104_assignment/num_reverser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmp104_assignment/prime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmp104_assignment/sum_of_num.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/password_manager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../physics_operator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../physics_operator/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../physics_operator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../physics_operator/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../physics_operator/.idea/physics_operator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../physics_operator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../physics_operator/math.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../physics_operator/physics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmp_OOP/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmp_OOP/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmp_OOP/ATM.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmp_OOP/ATM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmp_OOP/human.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmp_OOP/human.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pomodoro/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../pomodoro/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pomodoro/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../pomodoro/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../snake_game/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../snake_game/data.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Pf8Rvsut9YOIV2AYzit3jiBv9C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="password_manager" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c429f117-7c70-445e-a018-7c6834750e35" name="Changes" comment="" />
+      <created>1683836772131</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683836772131</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
