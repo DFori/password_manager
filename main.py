@@ -9,13 +9,16 @@ def save():
     email = name_ent.get()
     password = password_ent.get()
 
-    messagebox.askokcancel(title=website, message=f"These are the details entered: \nEmail: {email} "
+    if len(website) < 1 or len(password) < 1 or len(email) < 1:
+        messagebox.showerror(title="Oops", message="Please do not leave any field empty")
+    else:
+        is_ok = messagebox.askokcancel(title=website, message=f"These are the details entered: \nEmail: {email} "
                                                   f"\nPassword: {password} \nIs it ok to save? ")
-
-    with open("data.txt", 'a') as data_file:
-        data_file.write(f"{website} | {email} | {password}\n")
-        web_ent.delete(0, END)
-        password_ent.delete(0, END)
+        if is_ok:
+            with open("data.txt", 'a') as data_file:
+                data_file.write(f"{website} | {email} | {password}\n")
+            web_ent.delete(0, END)
+            password_ent.delete(0, END)
 
 
 # ---------------------------- UI SETUP ------------------------------- #
