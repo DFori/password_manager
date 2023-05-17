@@ -1,7 +1,12 @@
 from tkinter import *
 from tkinter import messagebox
+import PW_generator
 BLUE = "#97DEFF"
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
+
+def password():
+    global rand_password
+    password_ent.insert(0, PW_generator.generate())
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 def save():
@@ -9,13 +14,18 @@ def save():
     email = name_ent.get()
     password = password_ent.get()
 
-    messagebox.askokcancel(title=website, message=f"These are the details entered: \nEmail: {email} "
+    if len(website) < 1 or len(password) < 1 or len(email) < 1:
+        messagebox.showerror(title="Oops", message="Please do not leave any field empty")
+    else:
+        is_ok = messagebox.askokcancel(title=website, message=f"These are the details entered: \nEmail: {email} "
                                                   f"\nPassword: {password} \nIs it ok to save? ")
+        if is_ok:
+            with open("data.txt", 'a') as data_file:
+                data_file.write(f"{website} | {email} | {password}\n")
+            messagebox.showinfo(message="saved successfully")
+            web_ent.delete(0, END)
+            password_ent.delete(0, END)
 
-    with open("data.txt", 'a') as data_file:
-        data_file.write(f"{website} | {email} | {password}\n")
-        web_ent.delete(0, END)
-        password_ent.delete(0, END)
 
 
 # ---------------------------- UI SETUP ------------------------------- #
@@ -50,7 +60,7 @@ password_lb.grid(column=0, row=3)
 password_ent = Entry(width=18, bg="black", highlightthickness=0)
 password_ent.grid(column=1, row=3)
 
-password_btn = Button(text="Generate Password", highlightthickness=0, highlightbackground="black")
+password_btn = Button(text="Generate Password", highlightthickness=0, highlightbackground="black", command=password)
 password_btn.grid(column=2, row=3)
 
 
