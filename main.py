@@ -1,7 +1,12 @@
 from tkinter import *
 from tkinter import messagebox
+import PW_generator
 BLUE = "#97DEFF"
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
+
+def password():
+    global rand_password
+    password_ent.insert(0, PW_generator.generate())
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 def save():
@@ -17,8 +22,10 @@ def save():
         if is_ok:
             with open("data.txt", 'a') as data_file:
                 data_file.write(f"{website} | {email} | {password}\n")
+            messagebox.showinfo(message="saved successfully")
             web_ent.delete(0, END)
             password_ent.delete(0, END)
+
 
 
 # ---------------------------- UI SETUP ------------------------------- #
@@ -53,7 +60,7 @@ password_lb.grid(column=0, row=3)
 password_ent = Entry(width=18, bg="black", highlightthickness=0)
 password_ent.grid(column=1, row=3)
 
-password_btn = Button(text="Generate Password", highlightthickness=0, highlightbackground="black")
+password_btn = Button(text="Generate Password", highlightthickness=0, highlightbackground="black", command=password)
 password_btn.grid(column=2, row=3)
 
 
