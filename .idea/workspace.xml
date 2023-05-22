@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c429f117-7c70-445e-a018-7c6834750e35" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../30/a_file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30/nato_phonetic_alphabet.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cmp104_assignment/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cmp104_assignment/.idea/cmp104_assignment.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cmp104_assignment/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
@@ -22,7 +25,8 @@
       <change afterPath="$PROJECT_DIR$/../day5_password_creator/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day5_password_creator/code.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day5_password_creator/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PW_generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../git/github_tutorial/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../physics_operator/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../physics_operator/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../physics_operator/.idea/misc.xml" afterDir="false" />
@@ -32,6 +36,7 @@
       <change afterPath="$PROJECT_DIR$/../physics_operator/math.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../physics_operator/physics.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cmp_OOP/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmp_OOP/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cmp_OOP/ATM.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmp_OOP/ATM.py" afterDir="false" />
