@@ -3,6 +3,22 @@ from tkinter import messagebox
 import PW_generator
 import json
 BLUE = "#97DEFF"
+# ----------------------------- SEARCH PASSWORD ------------------------------- #
+def find_password():
+    website = web_ent.get()
+    email = name_ent.get()
+    try:
+        with open("data.json") as data_file:
+            data = json.load(data_file)
+    except FileNotFoundError:
+        messagebox.showinfo(message="No file data exists")
+    else:
+        if website in data:
+            email = data[website]["email"]
+            password = data[website]["password"]
+            messagebox.showinfo(message=f"The email for {website} is {email}\n and the password is {password}")
+        else:
+            messagebox.showinfo(message="No details for website exists")
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 
 def password():
@@ -47,7 +63,6 @@ def save():
                 password_ent.delete(0, END)
 
 
-
 # ---------------------------- UI SETUP ------------------------------- #
 window = Tk()
 window.title("Password Manager")
@@ -87,7 +102,7 @@ password_btn.grid(column=2, row=3)
 add_btn = Button(text="Add", highlightthickness=0, highlightbackground="black", width=34, command=save)
 add_btn.grid(column=1, row=4, columnspan=2)
 
-search_btn = Button(text="Search", highlightbackground="black", highlightthickness=0, width=13)
+search_btn = Button(text="Search", highlightbackground="black", highlightthickness=0, width=13, command=find_password)
 search_btn.grid(column=2, row=1)
 
 
